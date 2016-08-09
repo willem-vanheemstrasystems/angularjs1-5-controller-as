@@ -1,0 +1,9 @@
+<h1>Students:</h1>
+
+<ul>
+    <li data-ng-repeat="student in ctrl.students">
+        <a href="#students/{{ student.id }}">
+            {{ student.name }}
+        </a>
+    </li>
+</ul>
